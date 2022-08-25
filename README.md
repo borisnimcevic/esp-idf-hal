@@ -39,7 +39,7 @@ The examples could be built and flashed conveniently with [`cargo-espflash`](htt
 $ cargo espflash --release --target riscv32imc-esp-espidf --example ledc-simple --monitor /dev/ttyUSB0
 ```
 
-To edit the sdkconfig file for ESP32-C3:
+To edit the sdkconfig file for ESP32-C3: \
 (note the project will look for a "sdkconfig" file. If menuconfig generates "sdkconfig.debug" you will have to rename it to "sdkconfig")
 ```
 $ cargo-pio espidf menuconfig --target riscv32imc-esp-espidf
