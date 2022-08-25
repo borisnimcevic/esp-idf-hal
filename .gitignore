@@ -6,3 +6,6 @@
 **/*.rs.bk
 ulp/ulp_start.o
 install-rust-toolchain.sh
+
+# persona:
+README.md.backup
